@@ -1,0 +1,22 @@
+{
+    "version": "0.2.1",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Yantratmika/guardenv/releases/download/v0.2.1/guardenv_0.2.1_windows_amd64.zip",
+            "bin": [
+                "guardenv.exe"
+            ],
+            "hash": "a2fbfdbfb6b022243a48c92a1f8e330d1edee6c652f7bfff5d17c56067d41766"
+        },
+        "arm64": {
+            "url": "https://github.com/Yantratmika/guardenv/releases/download/v0.2.1/guardenv_0.2.1_windows_arm64.zip",
+            "bin": [
+                "guardenv.exe"
+            ],
+            "hash": "25c668871712924b769dc7569de866846801f5fe325b03ccdd426ab278a405f9"
+        }
+    },
+    "homepage": "https://github.com/yantratmika/guardenv",
+    "license": "MIT",
+    "description": "Keep .env secrets in git, encrypted"
+}
